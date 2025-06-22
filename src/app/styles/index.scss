@@ -8,5 +8,8 @@
     background: var(--bg-color);
     color: var(--primary-color);
     min-height: 100dvh;
-    transition: .1s ease-in-out;
+}
+
+.content-page {
+    display: flex;
 }
