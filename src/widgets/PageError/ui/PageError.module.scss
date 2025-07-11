@@ -1,0 +1,28 @@
+.PageError {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-l);
+  color: var(--primary-color);
+}
+
+.TextError {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.Button {
+  padding: 10px;
+  border: 10px;
+  background: var(--bg-color);
+  color: var(--primary-color);
+
+  &:hover {
+    background: var(--bg-hover);
+    cursor: pointer;
+  }
+}
