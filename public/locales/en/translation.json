@@ -1,8 +1,9 @@
 {
   "Текстовый перевод": "Test Translation",
-  "О нас": "About Page",
-  "Главная": "Main",
+  "О нас": "About",
+  "Главная": "Home",
   "ru": "en",
   "Страница не найдена": "Not Found Page",
-  "Произошла непредвиденная ошибка": "An unexpected error occurred"
+  "Произошла непредвиденная ошибка": "An unexpected error occurred",
+  "Войти": "Login"
 }
