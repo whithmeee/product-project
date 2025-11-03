@@ -29,7 +29,12 @@ server.post('/login', (req, res) => {
         );
 
         if (userFromBd) {
-            return res.json(userFromBd);
+            // Генерируем простой токен (в реальном приложении используйте JWT)
+            const token = 'mock-jwt-token-' + Date.now();
+            return res.json({
+                ...userFromBd,
+                token // добавляем токен в ответ
+            });
         }
 
         return res.status(403).json({ message: 'User not found' });
